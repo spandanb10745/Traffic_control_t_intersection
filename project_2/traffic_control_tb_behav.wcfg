@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="traffic_control_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="traffic_control_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/traffic_control_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_control_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_control_tb/M1" type="array">
+      <obj_property name="ElementShortName">M1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_control_tb/M2" type="array">
+      <obj_property name="ElementShortName">M2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_control_tb/MT" type="array">
+      <obj_property name="ElementShortName">MT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_control_tb/S" type="array">
+      <obj_property name="ElementShortName">S[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_control_tb/LUT/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/traffic_control_tb/LUT/pres_state" type="array">
+      <obj_property name="ElementShortName">pres_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pres_state[2:0]</obj_property>
+   </wvobject>
+</wave_config>
